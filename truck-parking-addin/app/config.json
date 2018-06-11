@@ -1,0 +1,19 @@
+{
+  "name": "Drive Trucker",
+  "supportEmail": "support@geotab.com",
+  "version": "0.0.1",
+  "items": [{
+    "url": "driveTrucker.html",
+    "path": "DriveAppLink/",
+    "menuName": {
+      "en": "Drive Trucker"
+    },
+    "icon": "images/icon.svg"
+  }],
+  "dev": {
+    "root": "driveTrucker",
+    "dist": {
+      "host": "https://cdn.rawgit.com/Geotab/addin-drive-trucker/master/truck-parking-addin/dist/"
+    }
+  }
+}

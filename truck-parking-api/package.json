@@ -1,0 +1,10 @@
+{
+  "name": "truck_parking_api",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">4"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "1.0.0"
+  }
+}
