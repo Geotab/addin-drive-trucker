@@ -32,7 +32,7 @@ Add the configuration below to the to the system setting -> add-ins section of t
     "menuName": {
       "en": "Drive Trucker"
     },
-    "icon": "https://cdn.rawgit.com/Geotab/addin-drive-trucker/master/truck-parking-addin/dist/images/icon.svg"
+    "icon": "https://cdn.jsdelivr.net/gh/Geotab/addin-drive-trucker@master/truck-parking-addin/dist/images/icon.svg"
   }]
 }
 ```

@@ -13,7 +13,7 @@
   "dev": {
     "root": "driveTrucker",
     "dist": {
-      "host": "https://cdn.rawgit.com/Geotab/addin-drive-trucker/master/truck-parking-addin/dist/"
+      "host": "https://cdn.jsdelivr.net/gh/Geotab/addin-drive-trucker@master/truck-parking-addin/dist/"
     }
   }
 }
