@@ -27,7 +27,7 @@ Add the configuration below to the to the system setting -> add-ins section of t
   "supportEmail": "support@geotab.com",
   "version": "0.0.1",
   "items": [{
-    "url": "https://cdn.rawgit.com/Geotab/addin-drive-trucker/master/truck-parking-addin/dist/driveTrucker.html",
+    "url": "https://cdn.jsdelivr.net/gh/Geotab/addin-drive-trucker@master/truck-parking-addin/dist/driveTrucker.html",
     "path": "DriveAppLink/",
     "menuName": {
       "en": "Drive Trucker"
