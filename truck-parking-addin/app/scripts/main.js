@@ -265,7 +265,7 @@ geotab.addin.driveTrucker = () => {
         initialize(freshApi, freshState, initializeCallback) {
             api = freshApi;
 
-            elRoot = document.getElementById('app');
+            elRoot = document.getElementById('driveTrucker');
 
             // setup vue to use Google maps component
             Vue.use(VueGoogleMaps, {
@@ -283,6 +283,7 @@ geotab.addin.driveTrucker = () => {
                 el: '#driveTrucker',
                 data() {
                     return {
+                        loading: true,
                         // map center
                         center: latLng(0, 0),
                         // device center
@@ -471,7 +472,7 @@ geotab.addin.driveTrucker = () => {
                 }
             });
 
-            VueGoogleMaps.loaded.then(() => {
+            Vue.$gmapApiPromiseLazy().then(() => {
                 // vue Google maps loads maps api into window, create DirectionsService once the library is loaded 
                 directionsService = new google.maps.DirectionsService();
 
