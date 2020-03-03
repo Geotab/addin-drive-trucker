@@ -5,6 +5,6 @@
     "node": ">4"
   },
   "dependencies": {
-    "@google-cloud/bigquery": "1.0.0"
+    "@google-cloud/bigquery": "4.7.0"
   }
 }
