@@ -7,15 +7,6 @@ This sample add-in leverages demonstrates using a truck parking location API, to
 - Estimate location name using Google Places API
 - Link to native device navigation for turn by turn directions to parking location
 
-## Getting Started
-
-This add-in was developed using [generator-addin](https://github.com/Geotab/generator-addin) to allow local developmented and testing.
-
-- Install [nodejs](https://nodejs.org/en/) latest LTS
-- Install dependencies: `npm install -g gulp-cli bower`
-- Clone the samples repository `git clone https://github.com/Geotab/addin-drive-trucker.git addin-drive-trucker`
-- Naviagte to the working directory `cd addin-drive-trucker/truck-parking-addin`
-- Run the sample `gulp serve`
 
 ## Installation
 
